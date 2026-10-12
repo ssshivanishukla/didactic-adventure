@@ -1,0 +1,850 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! Nice to meet you.",
+        "Hey! What can I do for you?",
+        "Hello! How are you?"
+      ]
+    },
+
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Explain Python",
+        "What is Python language?",
+        "Tell me about Python",
+        "Why is Python popular?",
+        "What is Python used for?",
+        "What are the features of Python?",
+        "Is Python easy to learn?"
+      ],
+      "responses": [
+        "Python is a high-level programming language.",
+        "Python is a popular programming language known for its simple syntax.",
+        "Python is widely used in AI, ML, web development and data science.",
+        "Python is easy to learn and supports many programming applications."
+      ]
+    },
+
+    {
+      "tag": "python_variables",
+      "patterns": [
+        "What is a variable?",
+        "Explain variable",
+        "What are variables?",
+        "Why do we use variables?",
+        "How do you create a variable in Python?"
+      ],
+      "responses": [
+        "A variable is used to store a value in a program.",
+        "A variable is a named reference used to store data.",
+        "Variables allow us to store and use data in a program.",
+        "In Python, you can create a variable like x = 10."
+      ]
+    },
+
+    {
+      "tag": "python_loop",
+      "patterns": [
+        "What is a loop?",
+        "Explain loop",
+        "Why are loops used?",
+        "What are loops?",
+        "What is a for loop?",
+        "What is a while loop?"
+      ],
+      "responses": [
+        "A loop is used to execute a block of code repeatedly.",
+        "Loops help us repeat a task multiple times.",
+        "A loop runs a block of code again and again based on a condition.",
+        "Python mainly provides for loops and while loops."
+      ]
+    },
+
+    {
+      "tag": "python_function",
+      "patterns": [
+        "What is a function in Python?",
+        "Explain function",
+        "Why do we use functions?",
+        "How do you create a function in Python?",
+        "What is a user defined function?"
+      ],
+      "responses": [
+        "A function is a reusable block of code that performs a specific task.",
+        "Functions help us organize and reuse code.",
+        "A Python function is created using the def keyword.",
+        "A user-defined function is a function created by the programmer."
+      ]
+    },
+
+    {
+      "tag": "python_list",
+      "patterns": [
+        "What is a list in Python?",
+        "Explain list",
+        "What is Python list?",
+        "Can a list store multiple values?",
+        "Is Python list mutable?"
+      ],
+      "responses": [
+        "A list is a collection used to store multiple values in Python.",
+        "Python lists are ordered and mutable collections.",
+        "A list can contain multiple values of different data types."
+      ]
+    },
+
+    {
+      "tag": "python_tuple",
+      "patterns": [
+        "What is a tuple?",
+        "Explain tuple in Python",
+        "What is Python tuple?",
+        "What is the difference between list and tuple?"
+      ],
+      "responses": [
+        "A tuple is an ordered collection of values that cannot be changed after creation.",
+        "The main difference is that lists are mutable while tuples are immutable."
+      ]
+    },
+
+    {
+      "tag": "python_dictionary",
+      "patterns": [
+        "What is a dictionary in Python?",
+        "Explain dictionary",
+        "What is Python dictionary?",
+        "What are key value pairs?"
+      ],
+      "responses": [
+        "A dictionary stores data in key-value pairs.",
+        "Python dictionaries are mutable collections of key-value pairs.",
+        "Example: student = {'name': 'Shivani', 'age': 25}."
+      ]
+    },
+
+    {
+      "tag": "python_oops",
+      "patterns": [
+        "What is OOP?",
+        "What is object oriented programming?",
+        "Explain OOP in Python",
+        "What are the pillars of OOP?",
+        "What is a class?",
+        "What is an object?"
+      ],
+      "responses": [
+        "OOP stands for Object-Oriented Programming.",
+        "OOP is a programming approach based on classes and objects.",
+        "The main concepts of OOP are encapsulation, inheritance, polymorphism and abstraction.",
+        "A class is a blueprint for creating objects."
+      ]
+    },
+
+    {
+      "tag": "python_exception",
+      "patterns": [
+        "What is exception handling?",
+        "Explain exception handling in Python",
+        "What is try except?",
+        "Why do we use try except?"
+      ],
+      "responses": [
+        "Exception handling is used to handle errors without stopping the entire program.",
+        "Python uses try, except, else and finally for exception handling.",
+        "The try block contains code that may produce an error and except handles the error."
+      ]
+    },
+
+    {
+      "tag": "sql",
+      "patterns": [
+        "What is SQL?",
+        "Explain SQL",
+        "What is SQL used for?",
+        "What is a database?",
+        "What is DBMS?",
+        "What is MySQL?"
+      ],
+      "responses": [
+        "SQL stands for Structured Query Language.",
+        "SQL is used to store, retrieve and manage data in relational databases.",
+        "MySQL is a popular relational database management system.",
+        "A database is used to store and organize data."
+      ]
+    },
+
+    {
+      "tag": "sql_select",
+      "patterns": [
+        "What is SELECT in SQL?",
+        "Explain SELECT query",
+        "How do I retrieve data from a table?",
+        "How to select data in SQL?"
+      ],
+      "responses": [
+        "SELECT is used to retrieve data from a database table.",
+        "Example: SELECT * FROM employee;",
+        "You can use SELECT with WHERE, ORDER BY and GROUP BY to filter and organize data."
+      ]
+    },
+
+    {
+      "tag": "sql_where",
+      "patterns": [
+        "What is WHERE in SQL?",
+        "Explain WHERE clause",
+        "Why is WHERE used?",
+        "How do I filter data in SQL?"
+      ],
+      "responses": [
+        "WHERE is used to filter records based on a condition.",
+        "Example: SELECT * FROM employee WHERE salary > 30000;"
+      ]
+    },
+
+    {
+      "tag": "sql_groupby",
+      "patterns": [
+        "What is GROUP BY?",
+        "Explain GROUP BY in SQL",
+        "Why is GROUP BY used?",
+        "How to group records in SQL?"
+      ],
+      "responses": [
+        "GROUP BY is used to group rows having the same values.",
+        "GROUP BY is commonly used with aggregate functions such as COUNT, SUM and AVG."
+      ]
+    },
+
+    {
+      "tag": "sql_having",
+      "patterns": [
+        "What is HAVING in SQL?",
+        "Explain HAVING clause",
+        "Difference between WHERE and HAVING",
+        "Why is HAVING used?"
+      ],
+      "responses": [
+        "HAVING is used to filter grouped results.",
+        "WHERE filters rows before grouping, while HAVING filters groups after GROUP BY."
+      ]
+    },
+
+    {
+      "tag": "sql_join",
+      "patterns": [
+        "What is JOIN in SQL?",
+        "Explain SQL joins",
+        "What is INNER JOIN?",
+        "What is LEFT JOIN?",
+        "What are different types of joins?"
+      ],
+      "responses": [
+        "JOIN is used to combine data from two or more tables.",
+        "Common joins are INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL JOIN.",
+        "INNER JOIN returns matching records from both tables.",
+        "LEFT JOIN returns all records from the left table and matching records from the right table."
+      ]
+    },
+
+    {
+      "tag": "sql_primary_key",
+      "patterns": [
+        "What is primary key?",
+        "Explain primary key",
+        "Why is primary key used?",
+        "What is a primary key in SQL?"
+      ],
+      "responses": [
+        "A primary key uniquely identifies each record in a table.",
+        "A primary key cannot contain duplicate values and normally cannot contain NULL values."
+      ]
+    },
+
+    {
+      "tag": "sql_foreign_key",
+      "patterns": [
+        "What is foreign key?",
+        "Explain foreign key",
+        "Why is foreign key used?",
+        "What is a foreign key in SQL?"
+      ],
+      "responses": [
+        "A foreign key is used to create a relationship between two tables.",
+        "It usually refers to the primary key of another table."
+      ]
+    },
+
+    {
+      "tag": "pandas",
+      "patterns": [
+        "What is Pandas?",
+        "Explain Pandas",
+        "What is Pandas used for?",
+        "Why do we use Pandas?",
+        "What is DataFrame?",
+        "What is Series in Pandas?"
+      ],
+      "responses": [
+        "Pandas is a Python library used for data analysis and data manipulation.",
+        "Pandas provides powerful data structures such as Series and DataFrame.",
+        "A DataFrame is a two-dimensional table-like data structure.",
+        "A Series is a one-dimensional labeled data structure."
+      ]
+    },
+
+    {
+      "tag": "pandas_read",
+      "patterns": [
+        "How to read CSV in Pandas?",
+        "How do I load a CSV file?",
+        "How to read Excel file using Pandas?",
+        "How to import data in Pandas?"
+      ],
+      "responses": [
+        "You can use pd.read_csv() to read a CSV file.",
+        "Example: df = pd.read_csv('data.csv')",
+        "For Excel files, you can use pd.read_excel('data.xlsx')."
+      ]
+    },
+
+    {
+      "tag": "pandas_filter",
+      "patterns": [
+        "How to filter data in Pandas?",
+        "What is filtering in Pandas?",
+        "How to select rows in Pandas?",
+        "What is loc in Pandas?",
+        "What is iloc in Pandas?"
+      ],
+      "responses": [
+        "Pandas allows you to filter rows using conditions.",
+        "loc is label-based indexing while iloc is integer-position based indexing.",
+        "Example: df[df['Age'] > 25] filters rows where Age is greater than 25."
+      ]
+    },
+
+    {
+      "tag": "pandas_groupby",
+      "patterns": [
+        "What is groupby in Pandas?",
+        "Explain groupby",
+        "How to group data in Pandas?",
+        "Why do we use groupby?"
+      ],
+      "responses": [
+        "groupby() is used to group data based on one or more columns.",
+        "It is useful for calculating SUM, MEAN, COUNT and other statistics for groups."
+      ]
+    },
+
+    {
+      "tag": "pandas_missing_values",
+      "patterns": [
+        "How to handle missing values in Pandas?",
+        "What is fillna?",
+        "What is dropna?",
+        "How do I find missing values?"
+      ],
+      "responses": [
+        "Missing values can be handled using isnull(), fillna() and dropna().",
+        "fillna() is used to replace missing values.",
+        "dropna() is used to remove rows or columns containing missing values."
+      ]
+    },
+
+    {
+      "tag": "numpy",
+      "patterns": [
+        "What is NumPy?",
+        "Explain NumPy",
+        "What is NumPy used for?",
+        "Why do we use NumPy?",
+        "What is NumPy array?",
+        "What is an ndarray?"
+      ],
+      "responses": [
+        "NumPy is a Python library used for numerical and scientific computing.",
+        "NumPy provides powerful array operations and mathematical functions.",
+        "A NumPy array is a collection of elements of the same data type.",
+        "NumPy is widely used in data science and machine learning."
+      ]
+    },
+
+    {
+      "tag": "numpy_array",
+      "patterns": [
+        "How to create NumPy array?",
+        "What is an array in NumPy?",
+        "How do I create an array?",
+        "Explain NumPy array"
+      ],
+      "responses": [
+        "You can create a NumPy array using np.array().",
+        "Example: arr = np.array([1, 2, 3, 4])",
+        "NumPy arrays are efficient for numerical operations."
+      ]
+    },
+
+    {
+      "tag": "numpy_functions",
+      "patterns": [
+        "What are common NumPy functions?",
+        "Explain NumPy functions",
+        "What is reshape in NumPy?",
+        "What is arange in NumPy?",
+        "What is zeros in NumPy?"
+      ],
+      "responses": [
+        "Common NumPy functions include array(), arange(), zeros(), ones(), reshape(), mean(), sum(), max() and min().",
+        "reshape() is used to change the shape of an array without changing its data."
+      ]
+    },
+
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is Machine Learning?",
+        "Explain Machine Learning",
+        "What is ML?",
+        "How does Machine Learning work?",
+        "What are the types of Machine Learning?",
+        "Where is Machine Learning used?"
+      ],
+      "responses": [
+        "Machine Learning is a branch of AI that allows computers to learn from data.",
+        "ML systems learn patterns from data and use them to make predictions or decisions.",
+        "The main types are supervised learning, unsupervised learning and reinforcement learning.",
+        "Machine Learning is used in recommendation systems, prediction, fraud detection and many other applications."
+      ]
+    },
+
+    {
+      "tag": "supervised_learning",
+      "patterns": [
+        "What is supervised learning?",
+        "Explain supervised learning",
+        "What are supervised learning algorithms?",
+        "Give examples of supervised learning"
+      ],
+      "responses": [
+        "Supervised learning learns from labeled data.",
+        "Examples include Linear Regression, Logistic Regression, Decision Tree, Random Forest, KNN and SVM."
+      ]
+    },
+
+    {
+      "tag": "unsupervised_learning",
+      "patterns": [
+        "What is unsupervised learning?",
+        "Explain unsupervised learning",
+        "What are unsupervised algorithms?",
+        "Give examples of unsupervised learning"
+      ],
+      "responses": [
+        "Unsupervised learning works with data that does not have labeled output.",
+        "Clustering and dimensionality reduction are common unsupervised learning techniques.",
+        "K-Means clustering is a popular unsupervised learning algorithm."
+      ]
+    },
+
+    {
+      "tag": "linear_regression",
+      "patterns": [
+        "What is Linear Regression?",
+        "Explain Linear Regression",
+        "What is regression?",
+        "Where is Linear Regression used?"
+      ],
+      "responses": [
+        "Linear Regression is a supervised learning algorithm used to predict continuous values.",
+        "For example, Linear Regression can be used to predict house prices based on area."
+      ]
+    },
+
+    {
+      "tag": "logistic_regression",
+      "patterns": [
+        "What is Logistic Regression?",
+        "Explain Logistic Regression",
+        "Is Logistic Regression used for classification?",
+        "Where is Logistic Regression used?"
+      ],
+      "responses": [
+        "Logistic Regression is a supervised learning algorithm mainly used for classification.",
+        "It is commonly used for binary classification problems such as yes or no prediction."
+      ]
+    },
+
+    {
+      "tag": "decision_tree",
+      "patterns": [
+        "What is Decision Tree?",
+        "Explain Decision Tree",
+        "How does Decision Tree work?",
+        "What is a decision tree algorithm?"
+      ],
+      "responses": [
+        "A Decision Tree is a supervised machine learning algorithm used for classification and regression.",
+        "It makes decisions using a tree-like structure of conditions and branches."
+      ]
+    },
+
+    {
+      "tag": "random_forest",
+      "patterns": [
+        "What is Random Forest?",
+        "Explain Random Forest",
+        "How does Random Forest work?",
+        "Is Random Forest supervised learning?"
+      ],
+      "responses": [
+        "Random Forest is a supervised machine learning algorithm.",
+        "It combines multiple decision trees to make better predictions.",
+        "Random Forest can be used for both classification and regression."
+      ]
+    },
+
+    {
+      "tag": "knn",
+      "patterns": [
+        "What is KNN?",
+        "Explain KNN",
+        "What is K Nearest Neighbors?",
+        "How does KNN work?"
+      ],
+      "responses": [
+        "KNN stands for K-Nearest Neighbors.",
+        "KNN makes predictions based on the nearest data points.",
+        "KNN can be used for classification and regression."
+      ]
+    },
+
+    {
+      "tag": "ml_overfitting",
+      "patterns": [
+        "What is overfitting?",
+        "Explain overfitting",
+        "What is underfitting?",
+        "Difference between overfitting and underfitting"
+      ],
+      "responses": [
+        "Overfitting happens when a model learns the training data too closely and performs poorly on new data.",
+        "Underfitting happens when a model is too simple to learn the important patterns in the data."
+      ]
+    },
+
+    {
+      "tag": "ml_accuracy",
+      "patterns": [
+        "What is accuracy?",
+        "What is accuracy score?",
+        "Explain accuracy in machine learning",
+        "What are evaluation metrics?"
+      ],
+      "responses": [
+        "Accuracy is the percentage of correct predictions made by a classification model.",
+        "Common evaluation metrics include accuracy, precision, recall, F1-score, MAE and MSE."
+      ]
+    },
+
+    {
+      "tag": "ai",
+      "patterns": [
+        "What is AI?",
+        "What is Artificial Intelligence?",
+        "Explain Artificial Intelligence",
+        "What is AI used for?",
+        "How does AI work?"
+      ],
+      "responses": [
+        "AI stands for Artificial Intelligence.",
+        "Artificial Intelligence enables machines to perform tasks that normally require human intelligence.",
+        "AI is used in chatbots, recommendation systems, computer vision, robotics and many other applications."
+      ]
+    },
+
+    {
+      "tag": "ai_vs_ml",
+      "patterns": [
+        "What is the difference between AI and ML?",
+        "AI vs ML",
+        "Difference between Artificial Intelligence and Machine Learning",
+        "Is ML a part of AI?"
+      ],
+      "responses": [
+        "AI is the broader concept of making machines intelligent, while Machine Learning is a method used to achieve AI.",
+        "Machine Learning is a subset of Artificial Intelligence."
+      ]
+    },
+
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "What is Deep Learning?",
+        "Explain Deep Learning",
+        "What is DL?",
+        "How is Deep Learning different from Machine Learning?",
+        "What are neural networks?"
+      ],
+      "responses": [
+        "Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers.",
+        "Deep Learning is commonly used in image recognition, speech recognition and natural language processing.",
+        "Neural networks are the basic building blocks of many deep learning models."
+      ]
+    },
+
+    {
+      "tag": "neural_network",
+      "patterns": [
+        "What is a neural network?",
+        "Explain neural network",
+        "What are neurons in deep learning?",
+        "How does a neural network work?"
+      ],
+      "responses": [
+        "A neural network is a machine learning model inspired by the human brain.",
+        "It contains layers of connected nodes called neurons that learn patterns from data."
+      ]
+    },
+
+    {
+      "tag": "interview_python",
+      "patterns": [
+        "Python interview questions",
+        "What Python questions are asked in interviews?",
+        "Python interview questions for freshers",
+        "Give me Python interview questions",
+        "Python technical interview"
+      ],
+      "responses": [
+        "Common Python interview questions include: What is Python, list vs tuple, mutable vs immutable, functions, OOP, exception handling, loops and dictionaries.",
+        "For Python interviews, prepare variables, data types, functions, loops, OOP, exception handling, file handling and modules."
+      ]
+    },
+
+    {
+      "tag": "interview_sql",
+      "patterns": [
+        "SQL interview questions",
+        "What SQL questions are asked in interviews?",
+        "SQL interview questions for freshers",
+        "Give me SQL interview questions",
+        "SQL technical interview"
+      ],
+      "responses": [
+        "Common SQL interview questions include SELECT, WHERE, GROUP BY, HAVING, JOIN, subqueries, aggregate functions and constraints.",
+        "You should also prepare primary key, foreign key, normalization and second highest salary queries."
+      ]
+    },
+
+    {
+      "tag": "interview_ml",
+      "patterns": [
+        "ML interview questions",
+        "Machine Learning interview questions",
+        "What ML questions are asked in interviews?",
+        "ML interview questions for freshers",
+        "Give me Machine Learning interview questions"
+      ],
+      "responses": [
+        "Common ML interview questions include supervised vs unsupervised learning, regression, classification, overfitting, underfitting, train-test split and evaluation metrics.",
+        "You should also prepare Linear Regression, Logistic Regression, Decision Tree, Random Forest, KNN and model evaluation."
+      ]
+    },
+
+    {
+      "tag": "interview_data_analyst",
+      "patterns": [
+        "Data Analyst interview questions",
+        "What questions are asked for Data Analyst?",
+        "Data Analyst interview",
+        "Data Analyst fresher interview questions",
+        "Give me Data Analyst interview questions"
+      ],
+      "responses": [
+        "Data Analyst interviews commonly cover Excel, SQL, Python, Pandas, Power BI, data cleaning, data visualization and basic statistics.",
+        "You should also prepare project explanation, KPI, dashboards, joins, groupby, filtering and business insights."
+      ]
+    },
+
+    {
+      "tag": "django",
+      "patterns": [
+        "What is Django?",
+        "Explain Django",
+        "What is Django used for?",
+        "Why is Django used?",
+        "What is Django framework?",
+        "Is Django a Python framework?"
+      ],
+      "responses": [
+        "Django is a high-level web framework built using Python.",
+        "Django is used to build secure and scalable web applications.",
+        "Yes, Django is a Python web framework.",
+        "Django follows the MVT architecture: Model, View and Template."
+      ]
+    },
+
+    {
+      "tag": "django_mvt",
+      "patterns": [
+        "What is MVT in Django?",
+        "Explain MVT",
+        "What is Model View Template?",
+        "How does MVT work in Django?"
+      ],
+      "responses": [
+        "MVT stands for Model, View and Template.",
+        "Model handles database data, View handles application logic and Template handles the user interface."
+      ]
+    },
+
+    {
+      "tag": "django_model",
+      "patterns": [
+        "What is Model in Django?",
+        "Explain Django Model",
+        "Why do we use models in Django?",
+        "What is a Django model?"
+      ],
+      "responses": [
+        "A Django Model is used to define and manage database data.",
+        "Models are Python classes that represent database tables."
+      ]
+    },
+
+    {
+      "tag": "django_view",
+      "patterns": [
+        "What is View in Django?",
+        "Explain Django View",
+        "What does a view do in Django?",
+        "Why are views used?"
+      ],
+      "responses": [
+        "A Django View contains the logic that processes requests and returns responses.",
+        "Views can return HTML pages, redirects or other responses."
+      ]
+    },
+
+    {
+      "tag": "django_template",
+      "patterns": [
+        "What is Template in Django?",
+        "Explain Django Template",
+        "What is HTML template in Django?",
+        "Why do we use templates?"
+      ],
+      "responses": [
+        "A Django Template is usually an HTML file used to create the user interface.",
+        "Django templates can display dynamic data using template tags and variables."
+      ]
+    },
+
+    {
+      "tag": "django_urls",
+      "patterns": [
+        "What is URL in Django?",
+        "Explain Django URLs",
+        "What is urls.py?",
+        "Why is urls.py used?"
+      ],
+      "responses": [
+        "Django URLs connect a browser URL to a view.",
+        "The urls.py file is used to define URL patterns for the application."
+      ]
+    },
+
+    {
+      "tag": "django_admin",
+      "patterns": [
+        "What is Django Admin?",
+        "Explain Django admin panel",
+        "Why do we use Django admin?",
+        "How is admin used in Django?"
+      ],
+      "responses": [
+        "Django Admin is a built-in administration interface.",
+        "It allows developers or administrators to manage database records easily.",
+        "Models can be registered in admin.py to manage them through the admin panel."
+      ]
+    },
+
+    {
+      "tag": "django_orm",
+      "patterns": [
+        "What is Django ORM?",
+        "Explain Django ORM",
+        "What is ORM in Django?",
+        "Why do we use ORM?"
+      ],
+      "responses": [
+        "ORM stands for Object Relational Mapping.",
+        "Django ORM allows you to work with database tables using Python code instead of writing SQL for every operation."
+      ]
+    },
+
+    {
+      "tag": "django_interview",
+      "patterns": [
+        "Django interview questions",
+        "What Django questions are asked in interviews?",
+        "Django interview questions for freshers",
+        "Give me Django interview questions",
+        "Django technical interview"
+      ],
+      "responses": [
+        "Common Django interview questions include MVT architecture, models, views, templates, URLs, ORM, migrations, middleware, forms and authentication.",
+        "You should also prepare Django project structure, static files, media files and Django Admin."
+      ]
+    },
+
+   
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "Are you fine?",
+        "How is everything?"
+      ],
+      "responses": [
+        "I'm fine, thank you!",
+        "I'm doing great. How about you?",
+        "I'm good and ready to help you.",
+        "Doing well!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "My pleasure!",
+        "Happy to help!",
+        "No problem!"
+      ]
+    }
+  ]
+}
