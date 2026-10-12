@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import random
 
-model = joblib.load("Chatbot.pkl")
+model = joblib.load("chatbot.pkl")
 vector = joblib.load("vector.pkl")
 res = joblib.load("res.pkl")
 
